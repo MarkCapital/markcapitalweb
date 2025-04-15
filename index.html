@@ -7,6 +7,7 @@
   <title>Mark Capital Web</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="mark_capital_web_logo.png" />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <style>
     .bg-glass {
       backdrop-filter: blur(10px);
@@ -32,9 +33,12 @@
   <!-- Hero Section -->
   <section class="bg-blue-900 text-white py-24 px-6 text-center relative overflow-hidden">
     <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-    <h1 class="text-4xl font-bold mb-4 relative z-10">Professional Websites for Local Businesses</h1>
-    <p class="text-lg mb-6 relative z-10">We handle everything for you — no stress, no tech skills needed. Just results.</p>
-    <a href="#pricing" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded hover:bg-gray-200 transition relative z-10">Get Started</a>
+    <div class="relative z-10">
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_jcikwtux.json" background="transparent" speed="1" style="width: 200px; height: 200px; margin: 0 auto 2rem;" loop autoplay></lottie-player>
+      <h1 class="text-4xl font-bold mb-4">Professional Websites for Local Businesses</h1>
+      <p class="text-lg mb-6">We handle everything for you — no stress, no tech skills needed. Just results.</p>
+      <a href="#pricing" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">Get Started</a>
+    </div>
   </section>
 
   <!-- Services -->
@@ -51,21 +55,21 @@
       <h2 class="text-3xl font-bold mb-6">Simple, Transparent Pricing</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <!-- Starter -->
-        <div class="bg-white/80 shadow-lg rounded-lg p-8 backdrop-blur-md">
+        <div class="bg-white/80 shadow-lg rounded-lg p-8 backdrop-blur-md hover:scale-105 transition-transform duration-300">
           <h3 class="text-2xl font-bold mb-2">Starter Site</h3>
           <p class="text-gray-700 mb-4">1-page website. Fast, clean, and perfect for getting online quickly.</p>
           <p class="text-3xl font-extrabold mb-6">$299</p>
           <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</a>
         </div>
         <!-- Pro -->
-        <div class="bg-white/90 shadow-lg rounded-lg p-8 border-2 border-blue-600 backdrop-blur-md">
+        <div class="bg-white/90 shadow-lg rounded-lg p-8 border-2 border-blue-600 backdrop-blur-md hover:scale-105 transition-transform duration-300">
           <h3 class="text-2xl font-bold mb-2">Pro Site</h3>
           <p class="text-gray-700 mb-4">Multi-page website with contact forms, Google Maps, and more.</p>
           <p class="text-3xl font-extrabold mb-6">$599</p>
           <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</a>
         </div>
         <!-- Custom -->
-        <div class="bg-white/80 shadow-lg rounded-lg p-8 backdrop-blur-md">
+        <div class="bg-white/80 shadow-lg rounded-lg p-8 backdrop-blur-md hover:scale-105 transition-transform duration-300">
           <h3 class="text-2xl font-bold mb-2">Custom Build</h3>
           <p class="text-gray-700 mb-4">Tailored solution for businesses with unique needs and branding.</p>
           <p class="text-3xl font-extrabold mb-6">Starting at $899</p>
