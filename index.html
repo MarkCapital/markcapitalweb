@@ -1,67 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mark Capital Web</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-white text-gray-800 font-sans">
 
-    <!-- Header -->
-    <header class="bg-white shadow-md py-4 px-6 flex items-center justify-between">
-      <div class="flex items-center space-x-4">
-        <img src="mark_capital_web_logo.png" alt="Mark Capital Web Logo" class="h-10 w-auto">
-        <span class="text-xl font-bold text-gray-800">Mark Capital Web</span>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Capital Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="mark_capital_web_logo.png" />
+</head>
 
-    <!-- Hero Section -->
-    <section class="bg-blue-900 text-white py-20 px-6 text-center">
-      <h1 class="text-4xl font-bold mb-4">Professional Websites for Local Businesses</h1>
-      <p class="text-lg mb-6">No hassle. No tech skills needed. We do all the work—so you can focus on running your business.</p>
-      <a href="#pricing" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">View Plans</a>
-    </section>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md py-4 px-6 flex items-center justify-between">
+    <div class="flex items-center space-x-4">
+      <img src="mark_capital_web_logo.png" alt="Mark Capital Web Logo" class="h-10 w-auto">
+      <span class="text-xl font-bold text-gray-800">Mark Capital Web</span>
+    </div>
+    <nav class="space-x-4 hidden md:block">
+      <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+      <a href="#pricing" class="text-gray-600 hover:text-blue-600">Pricing</a>
+      <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+    </nav>
+  </header>
 
-    <!-- How It Works -->
-    <section class="py-16 px-6 bg-gray-50">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-6">How It Works</h2>
-        <ol class="text-left text-lg space-y-4 max-w-2xl mx-auto list-decimal list-inside">
-          <li>You tell us about your business.</li>
-          <li>We design and build your website—completely done-for-you.</li>
-          <li>You review and approve it.</li>
-          <li>We launch it. You're online within days.</li>
-        </ol>
-      </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="bg-blue-900 text-white py-20 px-6 text-center">
+    <h1 class="text-4xl font-bold mb-4">Professional Websites for Local Businesses</h1>
+    <p class="text-lg mb-6">We handle everything for you — no stress, no tech skills needed. Just results.</p>
+    <a href="#pricing" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">Get Started</a>
+  </section>
 
-    <!-- Pricing -->
-    <section id="pricing" class="py-16 px-6">
-      <div class="max-w-5xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-6">Simple, Transparent Pricing</h2>
-        <div class="bg-white shadow-lg rounded-lg p-8 max-w-xl mx-auto">
-          <h3 class="text-2xl font-bold mb-2">Starter Website Package</h3>
-          <p class="text-gray-700 mb-4">Perfect for small businesses looking to get online fast. We handle everything.</p>
-          <p class="text-3xl font-extrabold mb-6">$299 one-time</p>
-          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
-            Buy Now
-          </a>
+  <!-- Services -->
+  <section id="services" class="py-16 px-6 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">What We Do</h2>
+      <p class="text-lg mb-4">From concept to launch, we build professional websites that help your business grow online. No templates. No hassle. 100% done-for-you.</p>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-16 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Simple, Transparent Pricing</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Starter -->
+        <div class="bg-white shadow-lg rounded-lg p-8">
+          <h3 class="text-2xl font-bold mb-2">Starter Site</h3>
+          <p class="text-gray-700 mb-4">1-page website. Fast, clean, and perfect for getting online quickly.</p>
+          <p class="text-3xl font-extrabold mb-6">$299</p>
+          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</a>
+        </div>
+        <!-- Pro -->
+        <div class="bg-white shadow-lg rounded-lg p-8 border-2 border-blue-600">
+          <h3 class="text-2xl font-bold mb-2">Pro Site</h3>
+          <p class="text-gray-700 mb-4">Multi-page website with contact forms, Google Maps, and more.</p>
+          <p class="text-3xl font-extrabold mb-6">$599</p>
+          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</a>
+        </div>
+        <!-- Custom -->
+        <div class="bg-white shadow-lg rounded-lg p-8">
+          <h3 class="text-2xl font-bold mb-2">Custom Build</h3>
+          <p class="text-gray-700 mb-4">Tailored solution for businesses with unique needs and branding.</p>
+          <p class="text-3xl font-extrabold mb-6">Starting at $899</p>
+          <a href="#contact" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Request a Quote</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact" class="bg-blue-50 py-16 px-6">
-      <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4">Have Questions?</h2>
-        <p class="mb-6">Email us directly and we'll be happy to help: <br><a href="mailto:markcapitalweb@gmail.com" class="text-blue-600 font-medium">markcapitalweb@gmail.com</a></p>
-      </div>
-    </section>
+  <!-- Contact -->
+  <section id="contact" class="bg-blue-50 py-16 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+      <form action="https://formspree.io/f/mnqepzrq" method="POST" class="space-y-6 bg-white p-8 shadow-lg rounded-lg">
+        <div>
+          <label class="block mb-2 font-medium">Your Name</label>
+          <input type="text" name="name" required class="w-full border border-gray-300 p-3 rounded" />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Email Address</label>
+          <input type="email" name="email" required class="w-full border border-gray-300 p-3 rounded" />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">What service are you interested in?</label>
+          <select name="service" class="w-full border border-gray-300 p-3 rounded">
+            <option>Starter Site</option>
+            <option>Pro Site</option>
+            <option>Custom Build</option>
+            <option>Unsure / Need Guidance</option>
+          </select>
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Additional Details</label>
+          <textarea name="message" rows="4" class="w-full border border-gray-300 p-3 rounded"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="py-6 text-center text-sm text-gray-500">
-      © 2025 Mark Capital Web. All rights reserved.
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer class="py-6 text-center text-sm text-gray-500">
+    © 2025 Mark Capital Web. All rights reserved. | Email us: <a href="mailto:markcapitalweb@gmail.com" class="text-blue-600">markcapitalweb@gmail.com</a>
+  </footer>
+</body>
+
 </html>
