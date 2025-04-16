@@ -18,72 +18,80 @@
 
 <body class="bg-gradient-to-br from-white via-blue-50 to-blue-100 text-gray-800 font-sans">
   <!-- Header -->
-  <header class="bg-white/80 shadow-md py-4 px-6 flex items-center justify-between backdrop-blur-md sticky top-0 z-50">
+  <header class="bg-white/90 shadow-md py-4 px-6 flex items-center justify-between sticky top-0 z-50 backdrop-blur-md">
     <div class="flex items-center space-x-4">
       <img src="mark_capital_web_logo.png" alt="Mark Capital Web Logo" class="h-10 w-auto">
-      <span class="text-xl font-bold text-gray-800">Mark Capital Web</span>
+      <span class="text-xl font-bold text-gray-800 tracking-wide">Mark Capital Web</span>
     </div>
     <nav class="space-x-4 hidden md:block">
-      <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
-      <a href="#pricing" class="text-gray-600 hover:text-blue-600">Pricing</a>
-      <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+      <a href="#services" class="text-gray-700 hover:text-blue-700 font-medium">Services</a>
+      <a href="#pricing" class="text-gray-700 hover:text-blue-700 font-medium">Pricing</a>
+      <a href="#contact" class="text-gray-700 hover:text-blue-700 font-medium">Contact</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-blue-900 text-white py-24 px-6 text-center relative overflow-hidden">
+  <section class="relative bg-blue-950 text-white py-28 px-6 text-center overflow-hidden">
     <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-    <div class="relative z-10">
+    <div class="relative z-10 max-w-4xl mx-auto">
       <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_jcikwtux.json" background="transparent" speed="1" style="width: 200px; height: 200px; margin: 0 auto 2rem;" loop autoplay></lottie-player>
-      <h1 class="text-4xl font-bold mb-4">Professional Websites for Local Businesses</h1>
-      <p class="text-lg mb-6">We handle everything for you — no stress, no tech skills needed. Just results.</p>
-      <a href="#pricing" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">Get Started</a>
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">We Build Beautiful, Professional Websites</h1>
+      <p class="text-xl md:text-2xl mb-8">Mark Capital Web helps local businesses look world-class online — without lifting a finger.</p>
+      <a href="#pricing" class="inline-block bg-white text-blue-900 font-semibold px-8 py-4 rounded-xl shadow-md hover:bg-gray-200 transition text-lg">View Plans</a>
     </div>
   </section>
 
   <!-- Services -->
-  <section id="services" class="py-16 px-6 bg-white/70 backdrop-blur-md">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">What We Do</h2>
-      <p class="text-lg mb-4">From concept to launch, we build professional websites that help your business grow online. No templates. No hassle. 100% done-for-you.</p>
+  <section id="services" class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">What We Do</h2>
+      <p class="text-lg leading-relaxed max-w-3xl mx-auto">
+        At Mark Capital Web, we specialize in building fully custom, done-for-you websites tailored for small and local businesses. 
+        Whether you're a restaurant owner, a landscaper, a realtor, or a mechanic — your online presence matters. We make sure it looks 
+        professional, loads fast, works on every device, and earns the trust of your visitors. 
+        <br/><br/>
+        From the very first conversation to the moment we launch your site, we take care of everything — design, coding, images, mobile optimization, 
+        contact forms, SEO basics, and even Google Maps integration. You don’t need to learn tech. You don’t even need to log in. 
+        We believe your website should feel like your hardest working employee — always available, always selling, always looking sharp.
+      </p>
     </div>
   </section>
 
   <!-- Pricing -->
-  <section id="pricing" class="py-16 px-6 bg-gradient-to-br from-blue-50 to-white">
-    <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">Simple, Transparent Pricing</h2>
-      <div class="grid md:grid-cols-3 gap-8">
+  <section id="pricing" class="py-20 px-6 bg-gradient-to-br from-blue-50 to-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10">Simple, Transparent Pricing</h2>
+      <div class="grid md:grid-cols-3 gap-10">
         <!-- Starter -->
-        <div class="bg-white/80 shadow-lg rounded-lg p-8 backdrop-blur-md hover:scale-105 transition-transform duration-300">
-          <h3 class="text-2xl font-bold mb-2">Starter Site</h3>
-          <p class="text-gray-700 mb-4">1-page website. Fast, clean, and perfect for getting online quickly.</p>
-          <p class="text-3xl font-extrabold mb-6">$299</p>
-          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</a>
+        <div class="bg-white shadow-2xl rounded-2xl p-8 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold mb-3">Starter Site</h3>
+          <p class="text-gray-600 mb-4">1-page modern website. Mobile-friendly. Fully managed.</p>
+          <p class="text-4xl font-extrabold mb-6">$299</p>
+          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition">Buy Now</a>
         </div>
         <!-- Pro -->
-        <div class="bg-white/90 shadow-lg rounded-lg p-8 border-2 border-blue-600 backdrop-blur-md hover:scale-105 transition-transform duration-300">
-          <h3 class="text-2xl font-bold mb-2">Pro Site</h3>
-          <p class="text-gray-700 mb-4">Multi-page website with contact forms, Google Maps, and more.</p>
-          <p class="text-3xl font-extrabold mb-6">$599</p>
-          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</a>
+        <div class="bg-white shadow-2xl rounded-2xl p-8 border-2 border-blue-600 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold mb-3">Pro Site</h3>
+          <p class="text-gray-600 mb-4">Up to 5 pages, contact form, SEO ready, Google Maps, mobile optimized.</p>
+          <p class="text-4xl font-extrabold mb-6">$599</p>
+          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition">Buy Now</a>
         </div>
         <!-- Custom -->
-        <div class="bg-white/80 shadow-lg rounded-lg p-8 backdrop-blur-md hover:scale-105 transition-transform duration-300">
-          <h3 class="text-2xl font-bold mb-2">Custom Build</h3>
-          <p class="text-gray-700 mb-4">Tailored solution for businesses with unique needs and branding.</p>
-          <p class="text-3xl font-extrabold mb-6">Starting at $899</p>
-          <a href="#contact" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Request a Quote</a>
+        <div class="bg-white shadow-2xl rounded-2xl p-8 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold mb-3">Custom Build</h3>
+          <p class="text-gray-600 mb-4">Tailored solution with branding, advanced features, or special integrations.</p>
+          <p class="text-4xl font-extrabold mb-6">From $899</p>
+          <a href="#contact" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition">Request a Quote</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="bg-white/80 py-16 px-6 backdrop-blur-md">
+  <section id="contact" class="bg-white py-20 px-6">
     <div class="max-w-3xl mx-auto">
       <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
-      <form action="https://formspree.io/f/mnqepzrq" method="POST" class="space-y-6 bg-white/90 p-8 shadow-lg rounded-lg">
+      <form action="https://formspree.io/f/mnqepzrq" method="POST" class="space-y-6 bg-white p-8 shadow-xl rounded-xl">
         <div>
           <label class="block mb-2 font-medium">Your Name</label>
           <input type="text" name="name" required class="w-full border border-gray-300 p-3 rounded" />
