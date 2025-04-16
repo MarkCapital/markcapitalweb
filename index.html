@@ -20,6 +20,13 @@
 </head>
 
 <body class="bg-gradient-to-br from-white via-blue-50 to-blue-100 text-gray-800 font-sans">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      AOS.init({ duration: 1000, once: true });
+    });
+  </script>
   <!-- Header -->
   <header class="bg-white/90 shadow-md py-4 px-6 flex items-center justify-between sticky top-0 z-50 backdrop-blur-md">
     <div class="flex items-center space-x-4">
@@ -34,7 +41,7 @@
   </header>
 
   <!-- Hero Section with Parallax -->
-  <section class="relative text-white py-36 px-6 text-center parallax">
+  <section class="relative text-white py-36 px-6 text-center parallax" data-aos="fade-in">
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div class="relative z-10 max-w-4xl mx-auto">
       <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_jcikwtux.json" background="transparent" speed="1" style="width: 200px; height: 200px; margin: 0 auto 2rem;" loop autoplay></lottie-player>
@@ -45,7 +52,7 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="py-20 px-6 bg-white">
+  <section id="services" data-aos="fade-up" class="py-20 px-6 bg-white">
     <div class="max-w-5xl mx-auto text-center">
       <h2 class="text-4xl font-bold mb-8">What We Do</h2>
       <p class="text-lg leading-relaxed max-w-3xl mx-auto">
@@ -61,7 +68,35 @@
   </section>
 
   <!-- Pricing -->
-  <!-- [UNCHANGED] -->
+  <section id="pricing" data-aos="fade-up" class="relative py-20 px-6 parallax" style="background-image: url('https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&w=1950&q=80');">
+    <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+    <div class="relative z-10 max-w-6xl mx-auto text-center text-white">
+      <h2 class="text-4xl font-bold mb-10">Simple, Transparent Pricing</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Starter -->
+        <div class="bg-white/90 text-gray-900 shadow-2xl rounded-2xl p-8 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold mb-3">Starter Site</h3>
+          <p class="mb-4">1-page modern website. Mobile-friendly. Fully managed.</p>
+          <p class="text-4xl font-extrabold mb-6">$299</p>
+          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition">Buy Now</a>
+        </div>
+        <!-- Pro -->
+        <div class="bg-white/90 text-gray-900 shadow-2xl rounded-2xl p-8 border-2 border-blue-600 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold mb-3">Pro Site</h3>
+          <p class="mb-4">Up to 5 pages, contact form, SEO ready, Google Maps, mobile optimized.</p>
+          <p class="text-4xl font-extrabold mb-6">$599</p>
+          <a href="https://buy.stripe.com/test_cN28yx1p9f8vb4c000" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition">Buy Now</a>
+        </div>
+        <!-- Custom -->
+        <div class="bg-white/90 text-gray-900 shadow-2xl rounded-2xl p-8 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold mb-3">Custom Build</h3>
+          <p class="mb-4">Tailored solution with branding, advanced features, or special integrations.</p>
+          <p class="text-4xl font-extrabold mb-6">From $899</p>
+          <a href="#contact" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition">Request a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Contact -->
   <!-- [UNCHANGED] -->
   <!-- Footer -->
